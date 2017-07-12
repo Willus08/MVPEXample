@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="posidenpalace.View.Activities.MainActivity.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFirst"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLast"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/tvFullName"/>
+    <Button
+        android:text="display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="display"/>
+
+  <Button
+        android:text="Save"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Save"/>
+
+    <Button
+        android:text="Show Saved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Show"/>
+
+</LinearLayout>
